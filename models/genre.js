@@ -25,4 +25,5 @@ const validateGenre = (genre) => {
 }
 
 exports.Genre = Genre;
-exports.validGenre = validateGenre; 
+exports.validGenre = validateGenre;
+exports.genreSchema = genreSchema;
